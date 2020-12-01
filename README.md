@@ -43,4 +43,4 @@
 	sqlplus sus/mypassword@//(Адрес докермашины):1521/XEPDB1
 ```
 ##Демонстрация результата запроса
-![Alt-текст](https://2.downloader.disk.yandex.ru/preview/a0253d2f90a2614052b0a6d2b28f0cbec51219aaa80cf6e51619a61eda894aa0/inf/wHvlsG38s4bJo2xzxaYCEExa04E4xqOdMQejAHv757kzX7g7c2Fc4sF4UzpI3oDsyOoCy4--7rhSBrtKMmJlEQ%3D%3D?uid=122767606&filename=Screenshot_6.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=122767606&tknv=v2&size=1903x937 "Орк")
+![Alt-текст](https://github.com/Migor33/OracleDBDocker/blob/main/Screenshot_6.png?raw=true "Орк")
