@@ -19,13 +19,13 @@
 	docker build -t mydb ./oracle/
 ```
 где `mydb` имя нашего образа.
-#Создание образа prometheus exporter
+# Создание образа prometheus exporter
 В качестве исходного образа будем использовать образ [iamseth/oracledb_exporter](https://github.com/iamseth/oracledb_exporter)
 Для сборки образа нужно ввести команду
 ```
 	docker build -t mydb_exporter ./oracle-exporter/
 ```
-#Запуск контейнеров
+# Запуск контейнеров
 Для запуска базы данных введем команду
 ```
 	docker run -d -it -p 1521:1521 --name mydb mydb
@@ -37,10 +37,10 @@
 ```
 `net=host` необходим, чтобы контейнер, стучась по адресу localhost:1521 попадал на контейнер с бд.
 Доступ к prometheus exporter можно получить по адресу (ip докермашины):9161
-#Подключаемся к базе через sqlplus
+# Подключаемся к базе через sqlplus
 Подключиться к базе через созданного пользователя с помощью sqlplus, можно использовать команду
 ```
 	sqlplus sus/mypassword@//(Адрес докермашины):1521/XEPDB1
 ```
-##Демонстрация результата запроса
+## Демонстрация результата запроса
 ![Alt-текст](https://github.com/Migor33/OracleDBDocker/blob/main/Screenshot_6.png?raw=true "Орк")
